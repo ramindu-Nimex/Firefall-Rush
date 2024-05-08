@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Firefall Rush</string>
+    <string name="Logo">"Firefall Rush "</string>
+    <string name="hScore">High Score : 0</string>
+    <string name="score">Score : 0</string>
+    <string name="startBtn">Start</string>
+</resources>

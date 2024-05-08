@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout"
+    android:gravity="center"
+    android:background="@drawable/back"
+    tools:context=".StartGame">
+
+    <TextView
+        android:id="@+id/hScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="monospace"
+        android:text="@string/hScore"
+        android:textAlignment="center"
+        android:textColor="@color/accent_color"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="monospace"
+        android:text="@string/score"
+        android:textAlignment="center"
+        android:textColor="@color/accent_color"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/secondary_color"
+        android:gravity="center"
+        android:text="@string/startBtn"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
